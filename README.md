@@ -1,13 +1,80 @@
-# Big-Data-and-Predictive-Analytics
-Introduction to various stages of a data sciences project such as how to answer questions about data, how to visualize data, and how to build predictive models using data that can make new predictions.
+# Big Data and Predictive Analytics
 
-## Problem Statement
-create a classification model that can predict whether a patient will readmit to the hospital within 30 days using 130 US hospitals diabetes dataset. This dataset represents ten years (1999-2008) of clinical care at 130 US hospitals and integrated delivery networks. Each row concerns hospital records of patients diagnosed with diabetes,who underwent laboratory, medications, and stayed up to 14 days. The dataset has 47 features and 101766 instances.
+Welcome to the **Big Data and Predictive Analytics** project repository. This project is focused on analyzing large datasets to derive insights and make predictions using machine learning models. The repository contains code, data, and a report documenting the project's approach and findings.
 
-## Objective
-Using the given dataset, the goal is to determine the early readmission of the patient within
-30 days of discharge. You will use appropriate performance metrics to evaluate the
-performance of your model. The data is not clean, and you will have to apply appropriate
-methods to clean the data. Additionally, using unsupervised clustering, you will have to
-implement cluster-based classification model that may improve the performance of the
-model.
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Dataset](#dataset)
+- [Notebooks](#notebooks)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Project Overview
+
+This project utilizes predictive analytics techniques to analyze medical data, specifically focusing on a diabetes dataset. The main goals are:
+- Data preprocessing and exploration.
+- Feature engineering and selection.
+- Building machine learning models to predict outcomes.
+- Evaluating model performance.
+
+The project is implemented using Python, and Jupyter notebooks are provided for exploration, model development, and evaluation.
+
+## Project Structure
+
+- **`Problem_statement/`**: Contains the problem statement and detailed description of the project goals.
+- **`diabetic_data.csv`**: The primary dataset used for analysis in this project.
+- **`IDS_mapping.csv`**: Mapping of IDs used within the dataset.
+- **`GroupX_solutions.ipynb`**: Main Jupyter notebook containing the implementation of the solutions, including data preprocessing, feature engineering, and predictive model building.
+- **`Extra.ipynb`**: Additional exploration or extra analysis that complements the main work.
+- **`Report/`**: Contains the report that documents the project findings and conclusions.
+- **`README.md`**: This file.
+
+## Usage
+
+1. **Prepare the dataset**:
+    - Ensure the `diabetic_data.csv` file is in the project directory. This file is the primary dataset used for predictive modeling.
+
+2. **Run the Jupyter notebooks**:
+    - Open the `GroupX_solutions.ipynb` notebook using Jupyter Notebook or JupyterLab.
+    - The notebook includes the full pipeline, from data preprocessing to model evaluation. Follow the cells step by step to reproduce the results.
+
+    ```bash
+    jupyter notebook GroupX_solutions.ipynb
+    ```
+
+3. **Explore additional analysis**:
+    - The `Extra.ipynb` notebook contains supplementary analysis that complements the main notebook. Feel free to explore it for deeper insights.
+
+## Dataset
+
+The dataset used in this project is the `diabetic_data.csv` file, which contains various attributes related to patients with diabetes. The goal is to analyze the data to predict potential outcomes and improve the understanding of diabetic conditions through predictive analytics.
+
+## Notebooks
+
+- **`GroupX_solutions.ipynb`**: Main notebook containing the complete workflow for predictive analysis. It covers data loading, preprocessing, model training, and evaluation.
+- **`Extra.ipynb`**: Additional notebook with extra exploratory data analysis or model testing.
+
+## Contributing
+
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or issues, feel free to open an issue on GitHub or contact the project maintainer:
+
+- **Author:** Pruthvi Raj
+- **GitHub:** [Pruthvi-Raj-S](https://github.com/Pruthvi-Raj-S)

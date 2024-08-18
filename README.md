@@ -6,7 +6,6 @@ Welcome to the **Big Data and Predictive Analytics** project repository. This pr
 
 - [Project Overview](#project-overview)
 - [Project Structure](#project-structure)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Dataset](#dataset)
 - [Notebooks](#notebooks)
